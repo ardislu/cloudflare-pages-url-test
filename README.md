@@ -5,9 +5,9 @@ When run locally, the `fetch` function does not accept `URL` objects as a resour
 npx wrangler pages dev .
 ```
 
-Visiting http://localhost:8788/ returns an error (/api throws an `Invalid URL` error).
+Visiting http://localhost:8788/api returns an error (/api throws an `Invalid URL` error).
 
-However when the same code is deployed to Cloudflare Pages, it works.
+However when the same code is deployed to Cloudflare Pages, it works: https://cloudflare-pages-url-test.pages.dev/api
 
 ## Workaround
 
