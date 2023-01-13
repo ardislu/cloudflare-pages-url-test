@@ -1,5 +1,11 @@
 # cloudflare-pages-url-test
 
+## Update January 12, 2023
+
+This issue has been fixed! 🎉 The bug described below is no longer applicable to `wrangler`.
+
+---
+
 When run locally, the `fetch` function does not accept `URL` objects as a resource. After running:
 ```
 npx wrangler pages dev .
